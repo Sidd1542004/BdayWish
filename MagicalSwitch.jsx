@@ -410,8 +410,9 @@ function GiftBox({ onOpen }) {
               flexDirection: "column",
               alignItems: "center",
               gap: 20,
-              padding: "40px 32px",
-              maxWidth: 420,
+              padding: "40px 48px",
+              maxWidth: 720,
+              marginTop: 100,
               textAlign: "center",
               background: "linear-gradient(135deg, #1a1010ee, #200a0aee)",
               borderRadius: 20,
@@ -456,8 +457,11 @@ function GiftBox({ onOpen }) {
                 lineHeight: 1.7,
               }}
             >
-              May every moment you unwrap be filled with warmth, wonder, and light.
-              This little spark was made just for you. 🌟
+            Happy Birthday, my love.
+Under this quiet moonlit sky, I celebrate the beautiful soul that brightens my world.
+Like the gentle glow of lanterns in the night, your presence fills my life with warmth and wonder.
+May this new year bring you endless smiles, unforgettable moments, and dreams that shine as brightly as the stars above.
+Every memory with you is a treasure, and every moment with you feels like magic. ✨🌙
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}
